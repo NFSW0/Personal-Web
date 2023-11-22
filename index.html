@@ -1,1 +1,62 @@
-<h>Test</h>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+    <title>夜林的个人网站</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/mobel_index.css">
+    <script src="assets/js/index.js"></script>
+</head>
+
+<body>
+    <!-- 视频背景 -->
+    <div class="row" id="main_background">
+        <video class="d-none d-md-block" id="main_background" autoplay loop muted poster="assets/Art/img/BackGround/游戏人生_大屏幕.jpg">
+            <source src="assets/Art/Mp4/游戏人生background.mp4">
+        </video>
+        <video class="d-md-none d-block" id="main_background" autoplay loop muted poster="assets/Art/img/BackGround/游戏人生小屏幕.jpg">
+            <source src="assets/Art/Mp4/游戏人生_小屏幕.mp4">
+        </video>
+    </div>
+
+    <!-- 顶部导航栏,首页未下翻时折叠，当首页的div导航不可见时展开 -->
+    <nav class="navbar bg-nav navbar-expand-lg sticky-top" id="top_nav">
+        <div class="container-xl flex-wrap flex-lg-nowrap">
+            <div>
+
+            </div>
+            <!-- LOGO -->
+            <div class="nav_logo">
+                <a class="navbar-brand" href="#">夜</a>
+            </div>
+            <!-- 导航栏 -->
+            <div class="nav_link row">
+                <div class="col-4">首页</div>
+                <div class="col-4">导航1</div>
+                <div class="col-4">导航2</div>
+            </div>
+            <!-- 按钮 -->
+            <div class="mobel_butten">
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="row personality_box" >
+        <div class="col-12">
+            <div>头像&ID</div>
+        </div>
+    </div>
+    <div class="mt-2 main_box">
+        <div class="left_box">主体框架（两边留白显示背景）
+            <div class="bg-nav" id="main_box_nav">首页导航栏</div>
+        </div>
+        <div class="right_box" id="personility_box">右边浮动绝对定位个人信息小板块，小屏幕收起</div>
+    </div>
+</body>
+
+</html>
